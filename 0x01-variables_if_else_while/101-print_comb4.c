@@ -22,7 +22,7 @@ int main(void)
 				putchar(b + '0');
 				putchar(c + '0');
 				c++;
-				if(a != 7)
+				if (a != 7)
 				{
 					putchar(',');
 					putchar(' ');
