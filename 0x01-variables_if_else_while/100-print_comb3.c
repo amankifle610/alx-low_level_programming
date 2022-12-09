@@ -18,11 +18,12 @@ int main(void)
 			putchar(a + '0');
 			putchar(c + '0');
 			c++;
-			if (c <= 9)
+			if (a != 8 && b != 9)
 			{
 				putchar(',');
 				putchar(' ');
 			}
+			
 		}
 		b++;
 		a++;
