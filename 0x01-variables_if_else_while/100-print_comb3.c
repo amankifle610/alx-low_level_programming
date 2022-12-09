@@ -13,13 +13,10 @@ int main(void)
 	while (a < 10)
 	{
 		c = b;
-		while (c <= 10)
+		while (c < 10)
 		{
-			if(c < 10)
-			{
 			putchar(a + '0');
 			putchar(c + '0');
-			}
 			c++;
 			putchar(',');
 			putchar(' ');
