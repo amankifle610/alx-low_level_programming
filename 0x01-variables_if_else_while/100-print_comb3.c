@@ -18,7 +18,7 @@ int main(void)
 			putchar(a + '0');
 			putchar(c + '0');
 			c++;
-			if (c < 9)
+			if (c <= 9)
 			{
 				putchar(',');
 				putchar(' ');
