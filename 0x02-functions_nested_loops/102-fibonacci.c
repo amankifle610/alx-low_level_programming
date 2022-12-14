@@ -7,7 +7,7 @@
 int main(void)
 {
 	int x, y, i;
-	long long int f;
+	long int f;
 
 	x = 1;
 	y = 2;
@@ -18,7 +18,7 @@ int main(void)
 		f = x + y;
 		x = y;
 		y = f;
-		printf("%d", f);
+		printf("%ld", f);
 		if (i < 47)
 			printf(", ");
 	}
