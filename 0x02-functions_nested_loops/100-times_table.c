@@ -22,7 +22,7 @@ void print_times_table(int n)
 				else
 				{
 					_putchar(',');
-					_putchar(' ');
+					_putchar('\t');
 				}
 			}
 			while (x > 0)
@@ -35,7 +35,7 @@ void print_times_table(int n)
 				else
 				{
 					_putchar(',');
-					_putchar(' ');
+					_putchar('\t');
 				}
 			}
 		}
