@@ -6,7 +6,8 @@
 */
 int main(void)
 {
-	int x, y, i, f; 
+	int x, y, i;
+	long long int f;
 
 	x = 1;
 	y = 2;
