@@ -18,7 +18,7 @@ void times_table(void)
 			else
 				_putchar(' ');
 			_putchar((x % 10) + '0');
-			if (i == 9)
+			if (j == 9)
 				_putchar('\n');
 			else
 			{
@@ -26,6 +26,5 @@ void times_table(void)
 				_putchar(' ');
 			}
 		}
-		_putchar('\n');
 	}
 }
