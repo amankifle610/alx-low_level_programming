@@ -17,7 +17,7 @@ void print_times_table(int n)
 			if (x == 0)
 			{
 				_putchar(x + '0');
-				if (i == n)
+				if (j == n)
 					_putchar('\n');
 				else
 				{
@@ -30,7 +30,7 @@ void print_times_table(int n)
 				y = x % 10;
 				x = x / 10;
 				_putchar(y + '0');
-				if (i == 0)
+				if (j == n)
 					_putchar('\n');
 				else
 				{
@@ -39,6 +39,6 @@ void print_times_table(int n)
 				}
 			}
 		}
-		_putchar('\n');
 	}
+	_putchat('\n');
 }
