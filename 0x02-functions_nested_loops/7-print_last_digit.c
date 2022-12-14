@@ -8,6 +8,8 @@ int print_last_digit(int c)
 {
 	int a;
 
+	if (c == -2147483648)
+		c = 48;
 	if (c < 0)
 		c = -c;
 	a = c % 10;
