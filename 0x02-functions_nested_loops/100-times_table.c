@@ -22,6 +22,7 @@ void print_times_table(int n)
 				_putchar((y / 10) + '0');
 			}
 			else if (x > 9)
+			{
 				if (j > 0)
 				_putchar(' ');
 				_putchar((x / 10) + '0');
@@ -39,5 +40,5 @@ void print_times_table(int n)
 			}
 		}
 		_putchar('\n');
-}
+	}
 }
