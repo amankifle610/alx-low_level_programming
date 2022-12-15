@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * mul - mul 
+ * mul - mul
  * @a : num
  * @b : num2
  * Return: mul
