@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * print_diagonal - print_diagonal
- *
+ * @n : number
  * Return:
 */
 void print_diagonal(int n)
@@ -17,6 +17,6 @@ void print_diagonal(int n)
 		_putchar('\\');
 		_putchar('\n');
 	}
-	if (n == 0)
+	if (n <= 0)
 		_putchar('\n');
 }
