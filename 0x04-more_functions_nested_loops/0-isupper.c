@@ -6,8 +6,14 @@
 */
 int _isupper(int c)
 {
-	if (c >= 65 && c <= 91)
+	char i;
+
+	i = 'a';
+	while (i <= 'z')
+	{
+		if (a == i)
 		return (1);
-	else
-		return (0);
+		i++;
+	}
+	return (0);
 }
