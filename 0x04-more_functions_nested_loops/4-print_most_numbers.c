@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * print_numbers - print_numbers
+ * print_most_numbers - print most numbers
  *
  * Return:
 */
@@ -10,7 +10,8 @@ void print_most_numbers(void)
 	
 	for (i = 0; i < 10; i++)
 	{
-		if (i != 2 || i != 4)
+		if (i == 2 || i == 4)
+			continue;
 		_putchar(i + '0');
 	}
 	_putchar('\n');
