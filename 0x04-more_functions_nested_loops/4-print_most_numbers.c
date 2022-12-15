@@ -2,9 +2,9 @@
 /**
  * print_numbers - print_numbers
  *
- * Return: 0
+ * Return:
 */
-void print_numbers(void)
+void print_most_numbers(void)
 {
 	int i;
 	
@@ -14,4 +14,5 @@ void print_numbers(void)
 		_putchar(i + '0');
 	}
 	_putchar('\n');
+	return;
 }
