@@ -6,9 +6,9 @@
 */
 void print_number(int n)
 {
-	int x, i;
+	unsigned int x, i;
 
-	i = 1000000000;
+	i = 10000000000;
 	if (n == 0)
 		_putchar(0 + '0');
 	else
