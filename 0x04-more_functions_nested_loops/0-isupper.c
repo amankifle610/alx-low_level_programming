@@ -4,16 +4,9 @@
  * @c : alpha
  * Return: 0
 */
-int _isupper(int c)
+int _isupper(char c)
 {
-	char i;
-
-	i = 'a';
-	while (i <= 'z')
-	{
-		if (a == i)
+	if (c <= 'Z' && c >= 'A')
 		return (1);
-		i++;
-	}
 	return (0);
 }
