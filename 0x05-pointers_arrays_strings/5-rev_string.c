@@ -7,7 +7,7 @@
 */
 void rev_string(char *s)
 {
-	int x = strlen(s),i;
+	int x = strlen(s);
 	char *st,*std,temp;
 
 	std = s;
@@ -16,7 +16,7 @@ void rev_string(char *s)
 	{
 		temp = *std;
 		*std = *st;
-		*st = *std;
+		*st = temp;
 		std++;
 		st--;
 	}
