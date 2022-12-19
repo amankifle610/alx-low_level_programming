@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * _strlen - length
- * @S - string ponter
+ * @s : string ponter
  * Return: length of string
 */
 int _strlen(char *s)
