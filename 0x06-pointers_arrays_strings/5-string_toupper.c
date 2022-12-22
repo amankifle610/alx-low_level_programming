@@ -7,13 +7,15 @@
 char *string_toupper(char *a)
 {
 	int i;
+	char *b;
 
 	i = 0;
-	while (a[i])
+	b = a;
+	while (b[i])
 	{
-		if (a[i] >= 97 && a[i] <= 122)
-			a[i] - = 32;
+		if (b[i] >= 97 && b[i] <= 122)
+			b[i] = b[i] - 32;
 		i++;
 	}
-	return (a);
+	return (b);
 }
