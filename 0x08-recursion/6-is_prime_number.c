@@ -1,11 +1,11 @@
 #include "main.h"
 /**
- * prime - prime
+ * is_prime - prime
  * @x : num
  * @l : loop
  * Return: 1 if even or 0 if odd
 */
-int prime(int x, int l)
+int is_prime(int x, int l)
 {
 	if (x % l == 0)
 	{
@@ -14,7 +14,7 @@ int prime(int x, int l)
 		else
 			return (0);
 	}
-	return (0 + prime(x, l + 1));
+	return (0 + is_prime(x, l + 1));
 }
 /**
  * is_prime_number - prime
@@ -29,5 +29,5 @@ int is_prime_number(int prime)
 		return (0);
 	if (n == 1)
 		return (0);
-	return (prime(n, 2));
+	return (is_prime(n, 2));
 }
