@@ -23,11 +23,11 @@ int is_prime(int x, int l)
 */
 int is_prime_number(int prime)
 {
-	if (n == 0)
+	if (prime == 0)
 		return (0);
-	if (n < 0)
+	if (prime < 0)
 		return (0);
-	if (n == 1)
+	if (prime == 1)
 		return (0);
-	return (is_prime(n, 2));
+	return (is_prime(prime, 2));
 }
