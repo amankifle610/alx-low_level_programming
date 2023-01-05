@@ -21,8 +21,6 @@ int _sqrt(int x, int y)
 */
 int _sqrt_recursion(int n)
 {
-	static int x = 0;
-
 	if (n < 0)
 		return (-1);
 	return (_sqrt(n, 0));
